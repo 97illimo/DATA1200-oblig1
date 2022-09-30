@@ -1,0 +1,147 @@
+body {
+    background-color: antiquewhite;
+}
+
+.header {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Sofia", Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: xx-large;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#main_left{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#main_center{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#main_right{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.type_meal {
+    color: black;
+    font-size: xx-large;
+    font-family: "Sofia", Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+}
+
+.courses {
+    align-self: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+img {
+    width: 350px;
+    height: 290px;
+    border-radius: 30px; 
+}
+
+ #img_egg_bacon {
+margin: 20% 0 40% 0;
+} 
+
+ #img_chicken_salad {
+    margin: 20% 0 40% 0;
+} 
+
+footer {
+    background-color: gray;
+    width: 100%;
+}
+#kontakt_info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-top: 1%;
+    background-color: gray;
+    width: 100%;
+}
+
+#kontakt_left {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: gray;
+    max-width: 50%;
+    /*     margin: 0 auto; */
+}
+
+#kontakt_left ul {
+    list-style-type: none;
+}
+
+#kontakt_left li {
+    padding-bottom: 7%;
+}
+
+#kontakt_right {
+    text-align: center;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+#kontakt_right ul {
+    list-style-type: none;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #881218;
+    color: white;
+  }
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
